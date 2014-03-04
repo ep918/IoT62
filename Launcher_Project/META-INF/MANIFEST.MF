@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Launcher_Project
+Bundle-SymbolicName: Launcher_Project
+Bundle-Version: 1.0.0
+Bundle-Activator: launcher_project.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: actuator_project,
+ gateway_project,
+ interfaces_project,
+ org.osgi.framework;version="1.3.0",
+ sensor_project
+Export-Package: launcher_project

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Actuator_Project
+Bundle-SymbolicName: Actuator_Project
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: actuator_project,
+ interfaces_project,
+ org.osgi.framework;version="1.3.0"
+Export-Package: actuator_project
